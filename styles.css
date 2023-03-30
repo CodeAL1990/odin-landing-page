@@ -4,8 +4,139 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border: 3px solid green;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header, .headerContent {
+    background-color: #1F2937;
+    color: white;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    border: 3px solid red;
+}
+
+.leftHeaderContent {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    align-self: stretch;
+    justify-content: center;
+    align-items: flex-start;
+    border: 3px solid yellow;
+}
+
+.headerMainText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.headerText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    border: none;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid purple;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 15px;
+    border: 3px solid black;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+}
+
 .box {
     width: 100px;
     height: 100px;
-    border: 3px solid navy;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoteAuthor {
+    color: #1F2937;
+}
+
+.signUp {
+    display: flex;
+    justify-content: center;
+    border: 3px solid blue; 
+}
+
+.signUpBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.actionBtn {
+    border: 1px solid #E5E7EB;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+
 }
